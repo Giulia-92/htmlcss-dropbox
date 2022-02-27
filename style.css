@@ -95,7 +95,7 @@ h3{
 }
 .img2{
     height:700px;
-    width:800px;
+    width:700px;
 
 }
 .btn{
@@ -139,7 +139,7 @@ h3{
     height: 90%;
 }
 .section4{
-    height:700px;
+    
     width:100%;
     
 }
@@ -321,10 +321,9 @@ h3{
     font-family:'Open Sans',sans-serif;
     height: 100px;
 }
-.portabilità{
+.section5{
     background-color: rgba(107, 220, 255, 0.836);
     height: 100px;
-    margin-top: -10px;
 }
 .sp1{
    transform: translate(30%,30%);
@@ -347,5 +346,35 @@ h3{
     transform: translate(50%,100%);
     background-color: rgba(189, 14, 14, 0.973);
  }
+ .sp6{
+    transform: translate(10%,50%);
+    background-color: rgb(83, 223, 233);
+ }
+ .sp7{
+    transform: translate(10%,50%);
+    background-color: rgb(30, 19, 187);
+ }
+ .sp8{
+    transform: translate(10%,50%);
+    background-color: rgb(251, 255, 1);
+ }
+ .portabilità{
+     text-align: center;
+     margin-left:40%;
+     font-size:40%;
+     font-family:'Open Sans',sans-serif; ;
+ }
+ .btnwhite{
+     float: right;
+     margin-right:10%;
+     line-height: 30px;
+     text-decoration: none;
+     padding-left:40px;
+     padding-right:40px;
+ }
+ .lastsection{
+     text-align: center;
+ }
+ 
 
 
