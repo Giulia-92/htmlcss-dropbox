@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,15 +48,15 @@
         </div>
         
     <main class="container">
-        <section class="section1 ">
-
-        </section>
-        <h2>Trova il piano Dropbox Business che fa per te</h2>
-        <div class="search">
-            <ul>
-                <li><a href="#">Fatturazione mensile</a></li>
-                <li><a href="#">Fatturazione annuale</a></li>
-             </ul>
+        <section class="section1">
+                <h2>Trova il piano Dropbox Business che fa per te</h2>
+            </section>
+        <fieldset class="search">
+            <input type="radio" id="mensile" name="pacchetto">
+            <label for="mensile">Fatturazione mensile</label>
+            <input type="radio" id="annuale" name="pacchetto">
+            <label for="annuale">Fatturazione annuale</label>
+        </fieldset>
         </div>
         <section class="subscriptionplane clearfix ">
                 <div class="plane1 ">
@@ -129,9 +128,9 @@
                  </div>
                 </section>
                 <section>
-                 <div class="subscriptionplane2 ">
-                    <div class="txt2 "><h5>Team</h5></div>
-                    <div class="list2 "><h3>Enterprise</h3> <span><button class="btnplane"><a href="#">Contatta l'ufficio vendite</a></button></span> <br>
+                 <div class="subscriptionplane2">
+                    <div class="txt2  "><h5>Team</h5></div>
+                    <div class="list2 debug "><h3>Enterprise</h3> <span><button class="btnplane"><a href="#">Contatta l'ufficio vendite</a></button></span> <br>
                     <h4><strong>Contatta l'ufficio vendite per i prezzi</strong></h4> <br>
                     <h4>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</h4>
                 </div>
@@ -257,19 +256,28 @@
                 <div><button class="btnwhite"><a href="#">inizia la tua prova gratuita</a></button>
             </div>
         </section>
-        <section class="lastsection container ">
+        <section class="lastsection container  clearfix">
             <h4>
                 Domande frequenti
             </h4>
             <ul>
                 <hr>
-                <li><a href="#">Qual è la differenza tra Dropbox Businness Standard e Dropbox Businness Advanced</a></li> 
+                <li><span>Qual è la differenza tra Dropbox Businness Standard e Dropbox Businness Advanced</span>
+                  <span class="risposta"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ipsam aliquam accusantium expedita? Eligendi nam vero qui ratione cumque quos.</span>
+                </li> 
+
                 <hr>
-                <li><a href="#">Qual è la differenza tra Dropbox Businness Standard e Dropbox Businness Advanced</a></li>
+                <li><span> Qual è la differenza tra Dropbox Businness Standard e Dropbox Businness Advanced</span>
+                    <span class="risposta"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ipsam aliquam accusantium expedita? Eligendi nam vero qui ratione cumque quos.</span>
+                </li>
                 <hr>
-                <li><a href="#">Qual è la differenza tra Dropbox Businness Standard e Dropbox Businness Advanced</a></li>
+                <li><span> Qual è la differenza tra Dropbox Businness Standard e Dropbox Businness Advanced</span>
+                    <span class="risposta"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ipsam aliquam accusantium expedita? Eligendi nam vero qui ratione cumque quos.</span> 
+                </li>
                 <hr>
-                <li><a href="#">Qual è la differenza tra Dropbox Businness Standard e Dropbox Businness Advanced</a></li>
+                <li><span> Qual è la differenza tra Dropbox Businness Standard e Dropbox Businness Advanced</span>
+                    <span class="risposta"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ipsam aliquam accusantium expedita? Eligendi nam vero qui ratione cumque quos.</span>
+                </li>
                 <hr>
             </ul>
         </div>
@@ -327,7 +335,13 @@
             </ul>
         </div>
         <div class=" language ">
-
+            <ul>
+            <li><span>Italiano</span></li>
+            <li><span class="languagelist">Francese</span></li>
+            <li><span class="languagelist">Inglese</span></li>
+            <li><span class="languagelist">Tedesco</span></li>
+            <li><span class="languagelist">Spagnolo</span></li>
+        </ul>
         </div>
     </footer>
 </body>
